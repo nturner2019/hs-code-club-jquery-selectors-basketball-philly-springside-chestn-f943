@@ -61,7 +61,7 @@ $(document).ready(function(){
 });
 ```
 
-This sets up the web page for you to be able to manipulate the objects on the page with jQuery. Without this line, none of your jQuery would work. You'll notice that all the code is wrapped by `{}`, `()`, and `;`. All of those punctuation are super important to jQuery. It's like finishing a sentence or a paragraph in English with a period and then you hit enter.
+The `$` tells the browser that we're using jQuery specifically. This sets up the web page for you to be able to manipulate the objects on the page with jQuery. Without this line, none of your jQuery would work. You'll notice that all the code is wrapped by `{}`, `()`, and `;`. All of those punctuation are super important to jQuery. It's like finishing a sentence or a paragraph in English with a period and then you hit enter.
 
 
 ### Step 6:
@@ -80,7 +80,9 @@ In `js/ball.js`, you'll want to replace `__` with the selector `#bowling-ball`, 
     $(this).animate({
       bottom: "400px"}).animate({left: "330px"}).animate({top: "45px"}).animate({left: "420px"});
   });
-```.
+```
+
+`$('#bowling-ball')` is our entire jQuery selector. We need the `$` so the browser again knows we're using jQuery to run the animations.
 
 The rest of the code basically defines what animation will take place once you click the bowling ball. Save your changes to this file and then refresh `index.html` in the browser. Try clicking the bowling ball, you should see the bowling ball fly through the hoop.
 
