@@ -8,6 +8,10 @@ img {
   cursor: pointer;
 }
 
+#tennis-ball {
+  display: inline;
+}
+
 .wrapper {
   position: relative;
   width: 960px;
