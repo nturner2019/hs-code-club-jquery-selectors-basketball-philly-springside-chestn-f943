@@ -8,3 +8,26 @@ Curious about sites that use jQuery: [Pinterest](http://www.pinterest.com), [ESP
 
 Because jQuery is for BALLERS, you're about to become a jQuery BasketBALLER.
 
+## Let's Get Started
+
+### Step 1:
+
+Click `Open` at the top of this page to bring this lesson down so you can edit files in Nitrous.
+
+<img src="https://s3.amazonaws.com/after-school-assets/new-open-in-nitrous.png">
+
+### Step 2: 
+
+Take a look at the files in this directory. Aside from the `README.md`
+
+### Step 3:
+
+Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`. 
+
+Once you have the server running, select `preview` and then `port 3000`.
+
+<img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
+
+You're going to code your solution in `css/gems.css`. Go ahead and open that file in the Nitrous text editor, as well as `index.html`.
+
+
