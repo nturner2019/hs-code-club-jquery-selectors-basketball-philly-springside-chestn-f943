@@ -1,27 +1,27 @@
 $(document).ready(function(){
 
-  // selector for bowling ball
-  $('#').click(function() {
+  // selector for bowling ball where you see __ (keep the single quotes!)
+  $('__').click(function() {
     $(this).animate({
-      bottom: "400px"}).animate({left: "370px"}).animate({top: "45px"});
+      bottom: "400px"}).animate({left: "330px"}).animate({top: "45px"}).animate({left: "420px"});
   });
 
-  // selector for bowling ball
-  $('#').click(function() {
+  // Selector for basketball where you see __ (keep the single quotes!)
+  $('__').click(function() {
     $(this).animate({
-      bottom: "400px"}).animate({left: "370px"}).animate({top: "30px"});
+      bottom: "400px"}).animate({left: "290px"}).animate({top: "30px"});
   });
 
-  // selector for beachball
-  $('#').click(function() {
+  // Selector for beachball where you see __ (keep the single quotes!)
+  $('__').click(function() {
     $(this).animate({
-      bottom: "420px"}).animate({left: "360px"}).animate({top: "20px"}).animate({left: "400px"});
+      bottom: "420px"}).animate({left: "200px"}).animate({top: "20px"}).animate({left: "400px"});
   });
 
-  // selector for tennis ball
-  $('#').click(function() {
+  // Selector for tennis ball where you see __ (keep the single quotes!)
+  $('__').click(function() {
     $(this).animate({
-      bottom: "510px"}).animate({left: "450px"}).animate({top: "20px"}).animate({left: "500px"})
+      bottom: "510px"}).animate({left: "190px"}).animate({top: "20px"}).animate({left: "500px"})
   });
 
 
