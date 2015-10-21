@@ -1,10 +1,10 @@
 # jQuery is for BALLERS
 
-jQuery is an amazing language that let's us add tremendous power to our websites through animations. You can make elements move around the page, menus slide in an out, objects disappear from the page. The options are as endless as your creativity. 
+jQuery is an amazing language that lets us add tremendous power to our websites through animations. You can make elements move around the page, menus slide in and out, objects disappear from the page. The options are as endless as your creativity. 
 
-In fact, jQuery so so widely used that 54% of the top 10,000 sites and 75% of the top 100 sites in the world use jQuery. That means that basically every site you look at uses jQuery. And where did jQuery come from? It was developed by a 20 year old college student. 
+In fact, jQuery is so widely used that 75% of the top 100 sites in the world use jQuery. That means that basically every site you look at uses jQuery. And where did jQuery come from? It was developed by a 20 year old college student. 
 
-Curious about sites that use jQuery: [Pinterest](http://www.pinterest.com), [ESPN](http://www.espn.com), [Reddit](http://www.reddit.com), [Etsy](http://www.etsy.com), [Instagram](http://www.instagram.com), [Huffington Post](http://www.huffingtonpost.com), and the list goes on.
+Curious about sites that use jQuery?: [Pinterest](http://www.pinterest.com), [ESPN](http://www.espn.com), [Reddit](http://www.reddit.com), [Etsy](http://www.etsy.com), [Instagram](http://www.instagram.com), [Huffington Post](http://www.huffingtonpost.com), and the list goes on.
 
 Because jQuery is for BALLERS, you're about to become a jQuery BasketBALLER.
 
@@ -12,7 +12,7 @@ Because jQuery is for BALLERS, you're about to become a jQuery BasketBALLER.
 
 ### Step 1:
 
-Click `Open` at the top of this page to bring this lesson down so you can edit files in Nitrous.
+Click `N Open` at the top of this page to open the files in Nitrous so you can edit them.
 
 <img src="https://s3.amazonaws.com/after-school-assets/new-open-in-nitrous.png">
 
@@ -39,7 +39,11 @@ This is the JS equivalent of the `link` tag to link your CSS. We put this at the
 
 Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`. 
 
-Once you have the server running, select `preview` and then `port 3000`.
+You should see this output in the terminal:
+
+<img src="https://s3.amazonaws.com/after-school-assets/started-server.png">
+
+Then select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
@@ -61,16 +65,16 @@ $(document).ready(function(){
 });
 ```
 
-The `$` tells the browser that we're using jQuery specifically. This sets up the web page for you to be able to manipulate the objects on the page with jQuery. Without this line, none of your jQuery would work. You'll notice that all the code is wrapped by `{}`, `()`, and `;`. All of those punctuation are super important to jQuery. It's like finishing a sentence or a paragraph in English with a period and then you hit enter.
+The `$` tells the browser that we're using jQuery specifically. This sets up the web page for you to be able to manipulate the objects on the page with jQuery. Without this line, none of your jQuery would work. You'll notice that all the code is wrapped by `{}`, `()`, and `;`. All of this punctuation is super important to jQuery. It's like finishing a sentence or a paragraph in English with a period.
 
 
 ### Step 6:
 
 <img src="https://s3.amazonaws.com/after-school-assets/bowling-ball.png" align="right" hspace="10">
 
-What we want to happen is that when you click each ball, it flies through the hoop and lands on the ground. We've set up a lot of the code for you, your goal is to use **jQuery Selectors** to apply the pre-written code to the appropriate ball. We're going to start with the bowling ball.
+What we want to happen is that when you click each ball, it flies through the hoop and lands on the ground. We've set up a lot of the code for you--your goal is to use **jQuery Selectors** to apply the pre-written code to the appropriate ball. We're going to start with the bowling ball.
 
-If you take a look at `index.html` in the Nitrous text editor for the the code that puts the bowling ball image on the page, you'll notice that it has `id="bowling-ball"`. Just like with CSS, we can use the ID as our jQuery selector to apply a specific animation.
+If you take a look at `index.html` in the Nitrous text editor for the code that puts the bowling ball image on the page, you'll notice that it has `id="bowling-ball"`. Just like with CSS, we can use the ID as our jQuery selector to apply a specific animation.
 
 In `js/ball.js`, you'll want to replace `__` with the selector `#bowling-ball`, so that your code looks something like this:
 
@@ -106,7 +110,7 @@ $('.basketball').click(function() {
 });
 ```
 
-Save your changes to this file, reload the page in the browser and try clicking on the basketball. If it flies through the air, you're good to go! basketball done. &#10003;
+Save your changes to this file, reload the page in the browser, and try clicking on the basketball. If it flies through the air, you're good to go! Basketball done. &#10003;
 
 
 ### Step 8:
@@ -149,7 +153,7 @@ Don't forget to save your changes to the JS file before you refresh in the brows
 Lastly, you need to enter in terminal in Nitrous `learn submit`. This command will push your work to GitHub and mark this lesson as complete in Learn!
 
 ## Share Share Share!
-Show of your work by taking a screenshot of your filled treasure box or code and share with **\#flatironcodeclub** and **\#jQueryBasketBallers**
+Show of your work by taking a screenshot of your basketball court or code and share with **\#flatironcodeclub** and **\#jQueryBasketBallers**
 
 ## Reminder 
 
