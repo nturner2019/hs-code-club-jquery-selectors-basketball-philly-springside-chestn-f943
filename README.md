@@ -2,11 +2,11 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/basketballers.gif" width="300px" hspace="10" align="right">
 
-jQuery is an amazing language that lets us add tremendous power to our websites through animations. You can make elements move around the page, menus slide in and out, objects disappear from the page. The options are as endless as your creativity. 
+jQuery is an amazing language that lets us add tremendous power to our websites through animations. You can make elements move around the page, menus slide in and out, and objects disappear from the page. The options are as endless as your creativity. 
 
 In fact, jQuery is so widely used that 75% of the top 100 sites in the world use jQuery. That means that basically every site you look at uses jQuery. And where did jQuery come from? It was developed by a 20 year old college student. 
 
-Curious about sites that use jQuery?: [Pinterest](http://www.pinterest.com), [ESPN](http://www.espn.com), [Reddit](http://www.reddit.com), [Etsy](http://www.etsy.com), [Instagram](http://www.instagram.com), [Huffington Post](http://www.huffingtonpost.com), and the list goes on.
+Curious about sites that use jQuery?: [Pinterest](http://www.pinterest.com), [ESPN](http://www.espn.com)'s pin it button, [Reddit](http://www.reddit.com, [Instagram](http://www.instagram.com)'s infinite scroll to look at images, [Huffington Post](http://www.huffingtonpost.com)'s nav bar, and the list goes on.
 
 Because jQuery is for BALLERS, you're about to become a jQuery BasketBALLER.
 
@@ -39,7 +39,7 @@ This is the JS equivalent of the `link` tag to link your CSS. We put this at the
 
 ### Step 4:
 
-Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`. 
+Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`
 
 You should see this output in the terminal:
 
@@ -88,7 +88,7 @@ In `js/ball.js`, you'll want to replace `__` with the selector `#bowling-ball`, 
   });
 ```
 
-`$('#bowling-ball')` is our entire jQuery selector. We need the `$` so the browser again knows we're using jQuery to run the animations.
+`$('#bowling-ball')` is our entire jQuery selector. We need the `$` so the browser again knows we're using jQuery to run the animations. Remember from CSS selectors that `#` stands for an ID and `.` stands for a class.
 
 The rest of the code basically defines what animation will take place once you click the bowling ball. Save your changes to this file and then refresh `index.html` in the browser. Try clicking the bowling ball, you should see the bowling ball fly through the hoop.
 
@@ -112,7 +112,7 @@ $('.basketball').click(function() {
 });
 ```
 
-Save your changes to this file, reload the page in the browser, and try clicking on the basketball. If it flies through the air, you're good to go! Basketball done. &#10003;
+Save your changes to this file, reload the page in the browser (it will reset all the balls)  , and try clicking on the basketball. If it flies through the air, you're good to go! Basketball done. &#10003;
 
 
 ### Step 8:
