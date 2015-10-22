@@ -1,5 +1,7 @@
 # jQuery is for BALLERS
 
+<img src="https://s3.amazonaws.com/after-school-assets/basketballers.gif" width="300px" hspace="10" align="right">
+
 jQuery is an amazing language that lets us add tremendous power to our websites through animations. You can make elements move around the page, menus slide in and out, objects disappear from the page. The options are as endless as your creativity. 
 
 In fact, jQuery is so widely used that 75% of the top 100 sites in the world use jQuery. That means that basically every site you look at uses jQuery. And where did jQuery come from? It was developed by a 20 year old college student. 
