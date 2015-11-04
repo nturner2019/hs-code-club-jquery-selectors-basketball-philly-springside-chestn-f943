@@ -136,7 +136,7 @@ Beach ball done. &#10003;
 
 ### Step 9: 
 
-<img src="https://s3.amazonaws.com/after-school-assets/tennis-ball.png" align="right hspace="10">
+<img src="https://s3.amazonaws.com/after-school-assets/tennis-ball.png" align="right" hspace="10">
 
 Last but certainly not least, it's time to shoot the tennis ball. In `index.html`, the tennis ball doesn't have an ID, class, or alt text. Sow how can we move it? You'll notice it's nested inside a `div` with the ID `tennis-ball`. We can use a descendant selector this time: `#tennis-ball img`. What this does is select the HTML element with the id `tennis-ball` and then the `img` inside the `div`.
 
