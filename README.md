@@ -117,7 +117,7 @@ Save your changes to this file, reload the page in the browser (it will reset al
 
 ### Step 8:
 
-<img src="">
+<img src="https://s3.amazonaws.com/after-school-assets/beachball.png" align="right" hspace="10">
 
 Time to shoot the beach ball. You'll notice in `index.html`, that the beach ball doesn't have a class or an ID. But it does have `alt` text defined. We can use that as our jQuery selector: `img[alt="rainbow beachball"]` If you want a refresher on this specific selector, take a look at the Week 4 lesson. 
 
