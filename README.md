@@ -165,3 +165,5 @@ Don't forget to shut down your server by hitting `control` and `c` before you mo
 
 
 
+
+<a href='https://learn.co/lessons/hs-code-club-jquery-selectors-basketball' data-visibility='hidden'>View this lesson on Learn.co</a>
